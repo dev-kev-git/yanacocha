@@ -1,0 +1,99 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="card border border-primary mt-5">
+        <div class="container-fluid m-3">
+            <!--Cabezera-->
+            <div class="row">
+              <div class="col-sm-6 text-primary"><p class="font-weight-bold">Reporte de Historial de Actividades</p> </div>
+              <div class="col-sm-6 d-flex justify-content-end">
+              </div>
+            </div>
+            <!--Filtros -->
+            <div class="row  m-3">
+                <div class="col-sm-12">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="col-md-3 mb-3">
+                            <label for="validationCustom01">Actividad</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Ingrese actividad a buscar" required>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationCustom02">Fecha de Inicio</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label for="validationCustomUsername">Fecha de Fin</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                              </div>
+                              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3 mt-4 ">
+                            <div class="input-group-prepend mt-2 ml-5">
+                                <button class="btn btn-primary btn-block" style="width: 400px;" type="button">Buscar</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="validationCustomUsername">Nivel</label>
+                                <div class="input-group">
+                                  <div class="input-group-prepend">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Seleccione...</option>
+                                        <option>...</option>
+                                      </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3 mb-3">
+                                <label for="validationCustomUsername">Riesgo</label>
+                                <div class="input-group ">
+                                  <div class="input-group-prepend">
+                                    <select id="inputState" class="form-control">
+                                        <option selected>Seleccione...</option>
+                                        <option>...</option>
+                                      </select>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <!--Tabla-->
+            <div class="row m-3">
+                <table class="table">
+                    <thead class="thead bg-primary text-white">
+                      <tr>
+                        <th scope="col">Actividad</th>
+                        <th scope="col">Fecha y hora</th>
+                        <th scope="col">Site</th>
+                        <th scope="col">Nivel</th>
+                        <th scope="col">Empresa</th>
+                        <th scope="col">Supervisor</th>
+                        <th scope="col">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>kevin</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <i class="fas fa-search fa-2x ml-2 text-primary"></i>
+                            <i class="fas fa-images fa-2x ml-2 text-primary"></i>
+                            <i class="fas fa-map-marked-alt fa-2x ml-2 text-primary"></i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+    </div>
+</div>
